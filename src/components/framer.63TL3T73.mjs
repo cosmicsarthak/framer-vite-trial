@@ -34885,11 +34885,11 @@ function pickVariableVariants(currentVariant, availableVariants) {
 async function loadFontsWithOpenType(source) {
   switch (source) {
     case "google": {
-      const supportedFonts = await import("./google-AYKKG2SQ.mjs");
+      const supportedFonts = await import("./google.mjs");
       return supportedFonts == null ? void 0 : supportedFonts.default;
     }
     case "fontshare": {
-      const supportedFonts = await import("./fontshare-26R7ZKFH.mjs");
+      const supportedFonts = await import("./fontshare.mjs");
       return supportedFonts == null ? void 0 : supportedFonts.default;
     }
     default:
@@ -34899,15 +34899,15 @@ async function loadFontsWithOpenType(source) {
 async function loadFontToOpenTypeFeatures(source) {
   switch (source) {
     case "google": {
-      const features = await import("./google-SWLQ2TQI.mjs");
+      const features = await import("./google.mjs");
       return features == null ? void 0 : features.default;
     }
     case "fontshare": {
-      const features = await import("./fontshare-TJDTFQF5.mjs");
+      const features = await import("./fontshare.mjs");
       return features == null ? void 0 : features.default;
     }
     case "framer": {
-      const features = await import("./framer-font-O4FG2JPU.mjs");
+      const features = await import("./google.mjs");
       return features == null ? void 0 : features.default;
     }
     default:
@@ -35515,10 +35515,10 @@ function loadVariationAxes(source) {
       const axes = (async () => {
         switch (source) {
           case "google" /* Google */: {
-            return (await import("./google-UJB733SC.mjs")).default;
+            return (await import("./google.mjs")).default;
           }
           case "fontshare" /* Fontshare */: {
-            return (await import("./fontshare-5ADQGVKG.mjs")).default;
+            return (await import("./fontshare.mjs")).default;
           }
           default:
             assertNever(source);
@@ -41406,4 +41406,3 @@ react-is/cjs/react-is.production.min.js:
    * LICENSE file in the root directory of this source tree.
    *)
 */
-//# sourceMappingURL=framer.63TL3T73.mjs.map

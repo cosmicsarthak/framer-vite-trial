@@ -12,7 +12,7 @@ import {
   useOnVariantChange,
   useVariantState,
   withCSS,
-} from "framer";
+} from "src/components/framer.jsx";
 import { LayoutGroup, motion, MotionConfigContext } from "framer-motion";
 import * as React from "react";
 import { useRef } from "react";

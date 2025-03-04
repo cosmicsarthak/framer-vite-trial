@@ -13,7 +13,7 @@ import {
   useIsOnFramerCanvas,
   useLocaleInfo,
   withCSS,
-} from "framer";
+} from "src/components/framer.jsx";
 import { LayoutGroup, motion } from "framer-motion";
 import * as React from "react";
 import { useRef } from "react";

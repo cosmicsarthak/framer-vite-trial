@@ -1,5 +1,5 @@
 import { jsx as _jsx } from "react/jsx-runtime";
-import { addPropertyControls, ControlType, RenderTarget } from "framer";
+import { addPropertyControls, ControlType, RenderTarget } from "src/components/framer.jsx";
 import { motion } from "framer-motion";
 import { steps } from "@motionone/easing";
 /**

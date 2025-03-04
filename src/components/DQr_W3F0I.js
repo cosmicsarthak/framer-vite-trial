@@ -9,7 +9,7 @@ import {
   useOnVariantChange,
   useVariantState,
   withCSS,
-} from "framer";
+} from "src/components/framer.jsx";
 import { LayoutGroup, motion } from "framer-motion";
 import * as React from "react";
 const cycleOrder = ["GYLLZ6QvO", "Ue8ToJeuA", "a_m8iD3YR"];

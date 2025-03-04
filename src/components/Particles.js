@@ -1,5 +1,5 @@
 import { jsx as _jsx } from "react/jsx-runtime";
-import { addPropertyControls, ControlType, Color, RenderTarget } from "framer";
+import { addPropertyControls, ControlType, Color, RenderTarget } from "src/components/framer.jsx";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
